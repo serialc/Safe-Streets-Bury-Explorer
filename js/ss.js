@@ -66,7 +66,7 @@ var SS = {
 SS.onload = function() {
   let feat,i;
 
-  SS.map = L.map('ssmap').setView([53.59, -2.365], 12);
+  SS.map = L.map('ssmap').setView([53.59, -2.315], 12);
 
   L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",
     {
